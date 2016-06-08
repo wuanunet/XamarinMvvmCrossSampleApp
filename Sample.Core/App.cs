@@ -1,6 +1,6 @@
 using MvvmCross.Platform.IoC;
 
-namespace XamarinMvvmCrossSampleApp
+namespace Sample.Core
 {
     public class App : MvvmCross.Core.ViewModels.MvxApplication
     {
