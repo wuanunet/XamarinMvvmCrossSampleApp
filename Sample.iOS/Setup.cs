@@ -12,7 +12,7 @@ namespace Sample.iOS
             : base(applicationDelegate, window)
         {
         }
-        
+
         public Setup(MvxApplicationDelegate applicationDelegate, IMvxIosViewPresenter presenter)
             : base(applicationDelegate, presenter)
         {
@@ -22,7 +22,7 @@ namespace Sample.iOS
         {
             return new Core.App();
         }
-        
+
         protected override IMvxTrace CreateDebugTrace()
         {
             return new DebugTrace();
