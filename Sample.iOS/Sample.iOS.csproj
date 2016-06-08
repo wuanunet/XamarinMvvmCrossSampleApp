@@ -89,6 +89,10 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Setup.cs" />
+    <Compile Include="Views\BaseView.cs" />
+    <Compile Include="Views\BaseView.designer.cs">
+      <DependentUpon>BaseView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\FirstView.cs" />
     <Compile Include="Views\FirstView.designer.cs" />
     <Content Include="AppDelegate.cs.txt" />
@@ -100,6 +104,7 @@
     <Content Include="Entitlements.plist" />
     <None Include="packages.config" />
     <InterfaceDefinition Include="Views\FirstView.xib" />
+    <InterfaceDefinition Include="Views\BaseView.xib" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MvvmCross.Binding, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
